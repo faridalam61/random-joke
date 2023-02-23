@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    background:#1E1E1E;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.joke-card{
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.btn{
+    background-color: #9B0F4E;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #790b3c;
+}
+
+@media screen and (max-width:577px) {
+    .container {
+            width: 100%;
+        }
+    
+        .joke-card {
+            padding: 15px;
+            margin: 0 15px;
+        }
+    
+        .btn {
+            padding: 15px 50px;
+        }
+    
+        .btn:hover {
+            cursor: pointer;
+            background: #790b3c;
+        }
+}
