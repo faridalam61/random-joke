@@ -42,6 +42,16 @@ body{
     background: #790b3c;
 }
 
+.title{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.description{
+    margin-bottom: 50px;
+    font-size: 18px;
+}
 @media screen and (max-width:577px) {
     .container {
             width: 100%;
@@ -60,4 +70,9 @@ body{
             cursor: pointer;
             background: #790b3c;
         }
+                .title {
+                    font-size: 30px;
+                    font-weight: 500;
+                    margin: 0;
+                }
 }
