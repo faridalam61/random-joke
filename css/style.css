@@ -52,6 +52,47 @@ body{
     margin-bottom: 50px;
     font-size: 18px;
 }
+
+/* Menu styles */
+.menu{
+    list-style: none;
+    background: #fff;
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li{
+    padding: 0;
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+    border-right: 1px solid #333;
+}
+.menu-item{
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 40px;
+    width: 100%;
+}
+
+.menu li:last-child{
+    border-right: 0;
+}
+
+.menu li:hover{
+    color: #9B0F4E;
+}
+.menu-item:hover{
+    color: #9B0F4E;
+}
+
+
 @media screen and (max-width:577px) {
     .container {
             width: 100%;
@@ -74,4 +115,7 @@ body{
                     font-size: 30px;
                     font-weight: 500;
                 }
+.menu-item {
+    padding: 10px 20px;
+}
 }
